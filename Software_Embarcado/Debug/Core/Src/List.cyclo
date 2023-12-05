@@ -1,0 +1,7 @@
+../Core/Src/List.cpp:29:1:List::List()	1
+../Core/Src/List.cpp:33:1:List::~List()	3
+../Core/Src/List.cpp:43:6:void List::insertBeforeFirst(int, int, int, int, int, int, int, int)	1
+../Core/Src/List.cpp:47:6:void List::insertAfterLast(int, int, int, int, int, int, int, int)	3
+../Core/Src/List.cpp:62:5:int List::readFirst()	1
+../Core/Src/List.cpp:66:6:void List::removeFirst(int&, int&, int&, int&, int&, int&, int&, int&)	3
+../Core/Src/List.cpp:151:5:int List::listAll()	2

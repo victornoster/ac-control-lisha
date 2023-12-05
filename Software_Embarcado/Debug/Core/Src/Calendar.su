@@ -1,0 +1,4 @@
+../Core/Src/Calendar.cpp:4:1:Calendar::Calendar(int, int, int)	24	static
+../Core/Src/Calendar.cpp:9:6:void Calendar::setCalendar(int, int, int)	24	static
+../Core/Src/Calendar.cpp:15:6:void Calendar::readCalendar(int&, int&, int&)	24	static
+../Core/Src/Calendar.cpp:21:6:void Calendar::advanceCalendar()	24	static

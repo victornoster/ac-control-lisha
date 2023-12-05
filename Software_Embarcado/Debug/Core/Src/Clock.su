@@ -1,0 +1,4 @@
+../Core/Src/Clock.cpp:4:1:Clock::Clock(int, int, int, int)	40	static
+../Core/Src/Clock.cpp:8:6:void Clock::setClock(int, int, int, int)	24	static
+../Core/Src/Clock.cpp:15:6:void Clock::readClock(int&, int&, int&, int&)	24	static
+../Core/Src/Clock.cpp:22:6:void Clock::advanceClock()	16	static

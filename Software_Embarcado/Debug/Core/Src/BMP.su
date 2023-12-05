@@ -1,0 +1,4 @@
+../Core/Inc/Sensor.hpp:9:7:Sensor<float>::Sensor()	16	static
+../Core/Src/BMP.cpp:3:1:BMP280::BMP280(uint8_t, uint8_t)	16	static
+../Core/Src/BMP.cpp:11:6:void BMP280::calibration()	64	static
+../Core/Src/BMP.cpp:32:7:virtual float BMP280::readSensor()	96	static
