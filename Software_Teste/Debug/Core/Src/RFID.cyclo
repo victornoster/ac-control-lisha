@@ -1,0 +1,30 @@
+../Core/Inc/Sensor.hpp:9:7:Sensor<long unsigned int>::Sensor()	1
+../Core/Src/RFID.cpp:3:1:RFID::RFID()	1
+../Core/Src/RFID.cpp:7:1:RFID::RFID(GPIO_TypeDef*, uint16_t)	1
+../Core/Src/RFID.cpp:16:6:void RFID::RFID_WriteRegister(uint8_t, uint8_t)	1
+../Core/Src/RFID.cpp:24:6:void RFID::RFID_WriteRegister(uint8_t, uint8_t, uint8_t*)	2
+../Core/Src/RFID.cpp:34:9:uint8_t RFID::RFID_ReadRegister(uint8_t)	1
+../Core/Src/RFID.cpp:44:6:void RFID::RFID_ReadRegister(uint8_t, uint8_t, uint8_t*, uint8_t)	6
+../Core/Src/RFID.cpp:78:6:void RFID::RFID_SetRegisterBitMask(uint8_t, uint8_t)	1
+../Core/Src/RFID.cpp:84:6:void RFID::RFID_ClearRegisterBitMask(uint8_t, uint8_t)	1
+../Core/Src/RFID.cpp:90:18:RFID::StatusCode RFID::RFID_CalculateCRC(uint8_t*, uint8_t, uint8_t*)	4
+../Core/Src/RFID.cpp:126:6:void RFID::RFID_Init()	1
+../Core/Src/RFID.cpp:153:6:void RFID::RFID_Init(GPIO_TypeDef*, uint16_t)	1
+../Core/Src/RFID.cpp:160:6:void RFID::RFID_Reset()	4
+../Core/Src/RFID.cpp:184:6:void RFID::RFID_AntennaOn()	2
+../Core/Src/RFID.cpp:194:6:void RFID::RFID_AntennaOff()	1
+../Core/Src/RFID.cpp:205:9:uint8_t RFID::RFID_GetAntennaGain()	1
+../Core/Src/RFID.cpp:214:6:void RFID::RFID_SetAntennaGain(uint8_t)	2
+../Core/Src/RFID.cpp:220:18:RFID::StatusCode RFID::RFID_TransceiveData(uint8_t*, uint8_t, uint8_t*, uint8_t*, uint8_t*, uint8_t, bool)	1
+../Core/Src/RFID.cpp:238:18:RFID::StatusCode RFID::RFID_CommunicateWithPICC(uint8_t, uint8_t, uint8_t*, uint8_t, uint8_t*, uint8_t*, uint8_t*, uint8_t, bool)	22
+../Core/Src/RFID.cpp:337:18:RFID::StatusCode RFID::RFID_RequestA(uint8_t*, uint8_t*)	1
+../Core/Src/RFID.cpp:344:18:RFID::StatusCode RFID::RFID_WakeupA(uint8_t*, uint8_t*)	1
+../Core/Src/RFID.cpp:356:18:RFID::StatusCode RFID::RFID_REQA_or_WUPA(uint8_t, uint8_t*, uint8_t*)	6
+../Core/Src/RFID.cpp:392:18:RFID::StatusCode RFID::RFID_Select(RFID::Uid*, uint8_t)	42
+../Core/Src/RFID.cpp:582:18:RFID::StatusCode RFID::RFID_HaltA()	4
+../Core/Src/RFID.cpp:612:6:bool RFID::isNewCardPresent()	3
+../Core/Src/RFID.cpp:625:6:bool RFID::readCardSerial()	1
+../Core/Src/RFID.cpp:630:10:virtual uint32_t RFID::readSensor()	7
+../Core/Src/RFID.cpp:664:5:int RFID::getSensorID()	1
+../Core/Inc/Sensor.hpp:24:6:void Sensor<T>::setID(int) [with T = long unsigned int]	1
+../Core/Inc/Sensor.hpp:19:5:int Sensor<T>::getID() [with T = long unsigned int]	1
